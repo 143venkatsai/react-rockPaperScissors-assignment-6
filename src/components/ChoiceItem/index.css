@@ -1,0 +1,25 @@
+.item {
+  list-style-type: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+.item-img {
+  height: 140px;
+  width: 140px;
+}
+
+.item-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .item-img {
+    height: 150px;
+    width: 150px;
+  }
+}
